@@ -28,7 +28,7 @@ Header Tanggapan (Response Headers):
 8.  **Access-Control-Allow-Origin**: Menentukan domain yang diizinkan untuk mengakses sumber daya melalui permintaan lintas domain (CORS).
 
 <div align="center">
-<img src="assets/header-http">
+<img src="assets/header-http.jpg">
 <p><strong>Gambar:</strong> header http</p>
 </div>
 
@@ -43,7 +43,7 @@ Data payload dalam HTTP merujuk pada konten aktual yang dikirim dalam tubuh perm
 **5. Data Formulir (Form Data):** Ketika klien mengirimkan data melalui formulir web, data tersebut menjadi payload permintaan HTTP. Data ini biasanya dikirim dalam format yang mudah dibaca oleh server, seperti x-www-form-urlencoded atau multipart/form-data.
 
 <div align="center">
-<img src="assets/data-payload-http">
+<img src="assets/data-payload-http.jpg">
 <p><strong>Gambar:</strong> Data Payload HTTP</p>
 </div>
 
@@ -51,7 +51,7 @@ Data payload dalam HTTP merujuk pada konten aktual yang dikirim dalam tubuh perm
 
 Grafik I/O (Input/Output) atau grafik aliran data HTTP adalah alat visual yang digunakan untuk memahami proses pertukaran data antara klien dan server melalui protokol HTTP. Grafik ini menggambarkan langkah-langkah atau tahapan yang terjadi selama permintaan HTTP (request) dan tanggapan HTTP (response).
 <div align="center">
-<img src="assets/io-graph-http">
+<img src="assets/io-graph-http.jpg">
 <p><strong>Gambar:</strong> I/O Graph HTTP</p>
 </div>
 
