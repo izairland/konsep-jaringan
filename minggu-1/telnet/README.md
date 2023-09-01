@@ -1,4 +1,4 @@
-## HTTP
+## Telnet
 **Pengenalan Telnet**
 Telnet adalah protokol jaringan yang digunakan untuk mengakses dan mengendalikan perangkat jarak jauh melalui jaringan komputer, seperti internet atau jaringan lokal. Ini memungkinkan pengguna untuk menjalankan perintah pada perangkat yang terhubung, seolah-olah mereka secara fisik ada di dekat perangkat tersebut.
 
