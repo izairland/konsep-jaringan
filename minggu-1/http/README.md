@@ -43,7 +43,7 @@ Data payload dalam HTTP merujuk pada konten aktual yang dikirim dalam tubuh perm
 **5. Data Formulir (Form Data):** Ketika klien mengirimkan data melalui formulir web, data tersebut menjadi payload permintaan HTTP. Data ini biasanya dikirim dalam format yang mudah dibaca oleh server, seperti x-www-form-urlencoded atau multipart/form-data.
 
 <div align="center">
-<img src="assets/data-payload-http.jpg">
+<img src="assets/data_paylaqod-http.jpg">
 <p><strong>Gambar:</strong> Data Payload HTTP</p>
 </div>
 
