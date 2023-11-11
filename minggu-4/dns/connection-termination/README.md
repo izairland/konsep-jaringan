@@ -1,0 +1,7 @@
+
+## Connection Termination
+Proses terminasi koneksi pada kode sebelumnya menggambarkan situasi setengah-tertutup, di mana baik sisi klien maupun server memiliki kemampuan untuk menghentikan pengiriman data tanpa sepenuhnya menutup koneksi. Ketika klien mengirim pesan "close" ke server, artinya klien telah menghentikan pengiriman data tetapi masih dapat menerima respons dari server. Sebaliknya, jika server mengirim pesan "close" ke klien, server telah menghentikan pengiriman data ke klien tetapi masih dapat menerima pesan dari klien.
+
+Dalam istilah jaringan, istilah "half-closed" mencerminkan kondisi di mana satu sisi koneksi telah menghentikan pengiriman data sementara sisi yang lain masih dapat menerima data. Koneksi tetap setengah-tertutup sampai kedua sisi mengonfirmasi penyelesaian operasi tertunda mereka dan mengirimkan pesan "close" ke sisi lain. Dengan kata lain, terminasi koneksi dalam konteks ini hanya setengah tertutup karena satu sisi telah menghentikan pengiriman data tetapi masih dapat menerima, sedangkan sisi lain masih dapat mengirim dan menerima data hingga menerima pesan "close" dari sisi yang telah menghentikan pengiriman data.
+
+Hal ini menunjukkan bahwa proses terminasi koneksi memungkinkan suatu entitas (klien atau server) untuk menghentikan unggahan data sementara masih dapat menerima unduhan, menciptakan dinamika setengah-tertutup yang menggambarkan fleksibilitas dalam manajemen koneksi jaringan.
