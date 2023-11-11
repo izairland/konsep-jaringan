@@ -1,0 +1,7 @@
+
+## Half-Closed
+Dalam konteks kode yang disediakan, kondisi setengah-tertutup terjadi ketika server menerima pesan "close" dari client. Saat client mengirim pesan "close" ke server, itu menandakan bahwa client ingin mengakhiri koneksi, dan setelah itu, client tidak akan lagi mengirim data. Ini adalah langkah awal dalam proses terminasi.
+
+Pada sisi server, saat server menerima pesan "close" dari client, server menanggapi permintaan tersebut dengan menutup soket yang terkait dengan koneksi client menggunakan fungsi close(). Tindakan ini menandakan bahwa server telah menghentikan pengiriman data kepada client, dan setelah itu, server tidak akan lagi mengirimkan data ke client. Meskipun server telah menghentikan pengiriman data, server masih tetap dapat menerima pesan dari client jika client memutuskan untuk mengirim pesan tambahan sebelum server menutup koneksi secara aktif.
+
+Dengan demikian, server menghentikan pengiriman data kepada client setelah menerima pesan "close" dari client, tetapi server masih mampu menerima data dari client hingga koneksi sepenuhnya ditutup oleh server. Situasi ini sesuai dengan konsep setengah-tertutup, di mana satu sisi koneksi telah menghentikan pengiriman data tetapi masih dapat menerima data dari sisi yang lain.
